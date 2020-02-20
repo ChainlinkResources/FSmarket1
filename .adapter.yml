@@ -6,9 +6,9 @@ platforms:
   - AWS Lambda
   - GCP Functions
 data_sources:
-  - name: OpenWeather
-    url: https://openweathermap.org/
+  - name: Market trading data 
+    url: https://markettradingdata.com
 parameters:
   - endpoint
-  - cityID
-  - days
+  - symbol 
+  - api_token
